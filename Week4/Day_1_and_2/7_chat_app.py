@@ -53,7 +53,7 @@ def get_mistral_client() -> Mistral:
     if not api_key:
         st.error("Please set MISTRAL_API_KEY environment variable")
         st.stop()
-    return Mistral(api_key=api_key)
+    return Mistral(api_key='BceUBNregnPsEAY36S2SiTgFI074zmDm')
 
 
 @st.cache_resource
